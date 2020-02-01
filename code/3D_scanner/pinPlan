@@ -1,0 +1,22 @@
+plan for gpio pins in BCM
+theta stepper:     dir  = 22
+		   step = 27
+
+z stepper:         dir  = 23
+		   step = 24
+
+vl53l1x tof sense: 3v power top left
+		   SDA = 2
+		   clk = 3
+		   shut = 4
+		   ground @ pin 9
+		   int  = 17
+
+communication pin:
+This is to let the other Rpi know 
+that the recording line is done.
+Once it goes high, that means the 
+line is done.
+		   outpin = 5
+		   inpin  = 6
+		   

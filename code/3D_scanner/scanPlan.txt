@@ -1,0 +1,19 @@
+scan.py (version 1) = first proof of concept
+features = - cartesian output points
+	   - 1 way z line
+
+scanv2.py (version 2) 
+features = - polar output points
+	   - 1 way z line
+
+scanv3.py (version 3) 
+features = - polar output points
+	   - 2 way z line
+
+scanv4.py (version 4)
+- This version is for the horizontal axis but compatible with the two axis scanner
+- This one controls the stage motor
+
+scanv5.py	
+- This version is for the vertical axis but compatible with the two axis scanner
+- this one does not control the stage motor
